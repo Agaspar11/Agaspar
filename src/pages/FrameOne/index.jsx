@@ -26,18 +26,18 @@ const FrameOnePage = () => {
     <>
       <div className="bg-gray-50 flex flex-col font-inter items-center justify-start mx-auto p-[49px] md:px-10 sm:px-5 w-full">
         <div className="flex flex-col md:gap-10 gap-[103px] items-center justify-start max-w-[1197px] mx-auto w-full">
-          <header className="flex flex-row md:gap-5 items-center justify-center sm:text-[0] w-full">
+          <header className="flex flex-row md:gap-10 items-center justify-between sm:text-[0] w-full">
             <ul className="flex flex-row font-inter sm:hidden items-center md:items-start justify-between mb-1 w-[30%] common-row-list">
               <li>
                 <a
                   href="javascript:"
-                  className="hover:font-medium text-black-900 md:text-lg text-xl uppercase"
+                  className="hover:font-medium text-black-900 md:text-lg text-sm uppercase"
                 >
                   <Text size="txtInterMedium20">Home</Text>
                 </a>
               </li>
               <li>
-                <a className="hover:font-medium text-black-900 md:text-lg text-xl uppercase">
+                <a className="hover:font-medium text-black-900 md:text-lg text-sm uppercase">
                   <Text
                     className="common-pointer"
                     size="txtInterLight20"
@@ -48,7 +48,7 @@ const FrameOnePage = () => {
                 </a>
               </li>
               <li>
-                <a className="hover:font-medium text-black-900 md:text-lg text-xl uppercase">
+                <a className="hover:font-medium text-black-900 md:text-lg text-sm uppercase">
                   <Text
                     className="common-pointer"
                     size="txtInterLight20"
@@ -60,7 +60,7 @@ const FrameOnePage = () => {
               </li>
             </ul>
             <Text
-              className="ml-[474px] text-black-900 md:text-lg text-xl"
+              className="ml-[474px] text-black-900 md:text-lg text-sm sm:text-xl"
               size="txtPoppinsMedium20"
             >
               agasparadrianlatayada@gmail.com
@@ -68,7 +68,7 @@ const FrameOnePage = () => {
           </header>
           <div className="flex flex-col md:gap-10 gap-[108px] items-start justify-start w-full">
             <Text
-              className="text-3xl sm:text-[26px] md:text-[28px] text-black-900 uppercase"
+              className="text-[25px] sm:text-[26px] md:text-[28px] text-black-900 uppercase"
               size="txtInterMedium30"
             >
               my Case studies

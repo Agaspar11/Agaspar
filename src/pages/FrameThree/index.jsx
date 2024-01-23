@@ -31,11 +31,11 @@ const FrameThreePage = () => {
     <>
       <div className="bg-gray-50 flex flex-col font-inter items-center justify-start mx-auto p-[49px] md:px-10 sm:px-5 w-full">
         <div className="flex flex-col items-center justify-start max-w-[1197px] mb-[298px] mx-auto w-full">
-          <header className="flex md:flex-col flex-row md:gap-5 items-center justify-center w-full">
+          <header className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
             <div className="flex md:flex-1 flex-col font-inter items-center justify-start mb-1 w-[30%] md:w-full">
               <ul className="flex flex-row sm:hidden items-center justify-between w-full common-row-list">
                 <li>
-                  <a className="hover:font-medium text-black-900 text-xl uppercase">
+                  <a className="hover:font-medium text-black-900 text-sm uppercase">
                     <Text
                       className="common-pointer"
                       size="txtInterLight20"
@@ -46,7 +46,7 @@ const FrameThreePage = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="hover:font-medium text-black-900 text-xl uppercase">
+                  <a className="hover:font-medium text-black-900 text-sm uppercase">
                     <Text
                       className="common-pointer"
                       size="txtInterLight20"
@@ -59,7 +59,7 @@ const FrameThreePage = () => {
                 <li>
                   <a
                     href="javascript:"
-                    className="hover:font-medium text-black-900 text-xl uppercase"
+                    className="hover:font-medium text-black-900 text-sm uppercase"
                   >
                     <Text size="txtInterMedium20">Contact</Text>
                   </a>
@@ -67,7 +67,7 @@ const FrameThreePage = () => {
               </ul>
             </div>
             <Text
-              className="md:ml-[0] ml-[472px] text-black-900 text-xl"
+              className="md:ml-[0] ml-[472px] text-black-900 text-sm"
               size="txtPoppinsMedium20"
             >
               agasparadrianlatayada@gmail.com
