@@ -1,7 +1,5 @@
 import React from "react";
-
 import { useNavigate } from "react-router-dom";
-
 import { Text } from "components";
 
 const FrameThreePage = () => {
@@ -10,7 +8,7 @@ const FrameThreePage = () => {
   function handleNavigate2() {
     const win = window.open(
       "https://www.instagram.com/agasparrr?igsh=c2Jsb3oxZ3FkN3Bi",
-      "_blank",
+      "_blank"
     );
     win.focus();
   }
@@ -29,7 +27,7 @@ const FrameThreePage = () => {
 
   return (
     <>
-      <div className="bg-gray-50 flex flex-col font-inter items-center justify-start mx-auto p-[49px] md:px-10 sm:px-5 w-full">
+      <div className="bg-gray-50 flex flex-col font-inter items-center justify-start mx-auto p-[49px] md:px-10 sm:px-5 w-full min-h-screen">
         <div className="flex flex-col items-center justify-start max-w-[1197px] mb-[298px] mx-auto w-full">
           <header className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-full">
             <div className="flex md:flex-1 flex-col font-inter items-center justify-start mb-1 w-[30%] md:w-full">

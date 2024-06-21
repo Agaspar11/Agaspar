@@ -1,7 +1,5 @@
 import React from "react";
-
 import { useNavigate } from "react-router-dom";
-
 import { Text } from "components";
 
 const FrameTwoPage = () => {
@@ -9,7 +7,7 @@ const FrameTwoPage = () => {
 
   return (
     <>
-      <div className="bg-gray-50 flex flex-col font-poppins items-center justify-start mx-auto p-[49px] md:px-10 sm:px-5 w-full">
+      <div className="bg-gray-50 flex flex-col font-poppins items-center justify-start mx-auto p-[49px] md:px-10 sm:px-5 w-full min-h-screen">
         <div className="flex flex-col md:gap-10 gap-[84px] items-center justify-start max-w-[1197px] mb-[19px] mx-auto w-full">
           <header className="flex sm:flex-col flex-row md:gap-10 items-center justify-between w-full">
             <div className="flex md:flex-1 flex-col font-inter items-center justify-start mb-1 w-[30%] md:w-full">

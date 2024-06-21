@@ -21,6 +21,18 @@ const FrameOnePage = () => {
     );
     win.focus();
   }
+  function handleNavigate2() {
+    const win = window.open(
+      "https://www.figma.com/design/1qVgrPwc1VvHi5YDYrC1iw/Move-in-Colour?node-id=4-2&t=Cs2zJjSLhUhNYDZd-1",
+    );
+    win.focus();
+  }
+  function handleNavigate3() {
+    const win = window.open(
+      "https://www.figma.com/design/lWG3edjrE4fFZtAX8HbmZr/Tuyok?node-id=0-1&t=pTL8JF6TiqQAntuB-1",
+    );
+    win.focus();
+  }
 
   return (
     <>
@@ -95,7 +107,7 @@ const FrameOnePage = () => {
                     className="mt-0.5 text-black-900 text-sm uppercase"
                     size="txtInterMedium14"
                   >
-                    Online pharmacy
+                    Online consultation & pharmacy
                   </Text>
                 </div>
               </div>
@@ -118,6 +130,50 @@ const FrameOnePage = () => {
                     size="txtInterMedium14"
                   >
                     B2b marketplace
+                  </Text>
+                </div>
+              </div>
+              <div className="flex flex-1 flex-col gap-[27px] items-start justify-start w-full">
+                <Img
+                  className="common-pointer h-[350px] md:h-[470px] sm:h-auto object-cover w-full"
+                  src="images/mic.png"
+                  alt="rectangleTwo"
+                  onClick={handleNavigate2}
+                />
+                <div className="flex flex-col items-start justify-start">
+                  <Text
+                    className="text-black-900 text-xl uppercase"
+                    size="txtInterMedium20"
+                  >
+                    Move in Colour{" "}
+                  </Text>
+                  <Text
+                    className="mt-0.5 text-black-900 text-sm uppercase"
+                    size="txtInterMedium14"
+                  >
+                    Non-profit Movement
+                  </Text>
+                </div>
+              </div>
+              <div className="flex flex-1 flex-col gap-[27px] items-start justify-start w-full">
+                <Img
+                  className="common-pointer h-[350px] md:h-[470px] sm:h-auto object-cover w-full"
+                  src="images/Opening.png"
+                  alt="rectangleTwo"
+                  onClick={handleNavigate3}
+                />
+                <div className="flex flex-col items-start justify-start">
+                  <Text
+                    className="text-black-900 text-xl uppercase"
+                    size="txtInterMedium20"
+                  >
+                    Tuyok{" "}
+                  </Text>
+                  <Text
+                    className="mt-0.5 text-black-900 text-sm uppercase"
+                    size="txtInterMedium14"
+                  >
+                    Transportation App
                   </Text>
                 </div>
               </div>
